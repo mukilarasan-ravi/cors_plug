@@ -29,7 +29,7 @@ defmodule CorsPlug.Mixfile do
   defp deps do
     [
       {:plug, "~> 1.13"},
-      {:ex_doc, "~> 0.28.0", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.29.0", only: :dev, runtime: false},
       {:mix_test_watch, "~> 1.1", only: :test}
     ]
   end
